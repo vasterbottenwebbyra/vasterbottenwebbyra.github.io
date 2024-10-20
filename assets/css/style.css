@@ -1471,3 +1471,142 @@ h3 .dot {
     min-height: 1100px;
   }
 }/*# sourceMappingURL=style.css.map */
+
+/* adding new */
+  .testimonials-container {
+    overflow-x: scroll;
+    padding: 20px 0;
+  }
+
+  .testimonials-list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .testimonial-card {
+    flex: 0 0 auto;
+    background: #ffffff;
+    border: 2px solid var(--secondary-color);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .testimonial-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .client-photo img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  .testimonial-text {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--text-color);
+    margin-bottom: 10px;
+  }
+
+  .client-name {
+    /* font-weight: bold;
+    color: var(--primary-color); */
+    color: var(--gold);
+    font-family: var(--ff-source-sans-pro);
+  }
+
+  .client-company {
+    /* color: var(--secondary-color); */
+    color: var(--text-color-light);
+  }
+
+  .testimonials-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .contact-container {
+    display: flex;
+    gap: 40px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+  }
+
+  .contact-info {
+    flex: 1;
+    font-size: 1.1rem;
+  }
+
+  .contact-details {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .contact-details li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: var(--text-color);
+  }
+
+  .contact-details ion-icon {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-right: 10px;
+  }
+
+  .quote-form {
+    flex: 1;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-group {
+    margin-bottom: 15px;
+  }
+
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 8px;
+    font-size: 1rem;
+    color: var(--text-color);
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+
+  .input-group input:focus,
+  .input-group textarea:focus {
+    border-color: var(--primary-color);
+  }
+
+  .btn-submit {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+
+  .btn-submit:hover {
+    background-color: var(--secondary-color);
+  }
