@@ -5,7 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digital Agency Website</title>
+  <meta name="description" content="Västerbotten Webbyrå - Your trusted partner for Web Design, Development, UI/UX, Full-Stack Applications, E-commerce, SEO, and Cloud Solutions.">
+  <meta name="keywords" content="Web Design, Web Development, UI/UX, Full-Stack Development, E-commerce, SEO, Digital Marketing, Cloud Solutions, DevOps, Static Website Generation, GraphQL, Västerbotten, Umeå">
+  <meta name="author" content="Västerbotten Webbyrå">
+  <link rel="icon" href="favicon.ico">
+  <title>Västerbotten Webbyrå | Digital Solutions in Umeå, Sweden</title>
 
   <!-- 
     - favicon
@@ -33,64 +37,68 @@
 
 <body id="top">
 
-  <!-- #HEADER -->
+<!-- #HEADER -->
 
-  <header class="header" data-header>
-    <div class="container">
+<header class="header" data-header>
+  <div class="container">
 
-      <div class="overlay" data-overlay></div>
+    <div class="overlay" data-overlay></div>
 
-      <!-- <a href="#" class="logo">
-        Västerbotten <i>Webbbyrå</i>
-      </a> -->
+    <!-- Updated Logo Section -->
+    <a href="#" class="logo">
+      <img src="./assets/images/logo.png" alt="Västerbotten Webbyrå Logo" style="height: 50px; width: auto;">
+    </a>
 
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.png" alt="Logo">
-      </a>
+    <!-- Navbar Section -->
+    <nav class="navbar" data-navbar>
 
-      <nav class="navbar" data-navbar>
+      <div class="navbar-top">
+        <a href="#" class="logo logo-dark">
+          Västerbotten <i>Webbyrå</i>
+        </a>
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
 
-        <div class="navbar-top">
-          <a href="#" class="logo logo-dark">
-            Brand <i>Name</i>
-          </a>
-          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-            <ion-icon name="close-outline"></ion-icon>
-          </button>
-        </div>
+      <ul class="navbar-list" style="align-items: center;">
 
-        <ul class="navbar-list">
+        <li class="navbar-item">
+          <a href="#home" class="navbar-link" data-navbar-link>Home</a>
+        </li>
 
-          <li class="navbar-item">
-            <a href="#home" class="navbar-link" data-navbar-link>Home</a>
-          </li>
+        <li class="navbar-item">
+          <a href="#about" class="navbar-link" data-navbar-link>About</a>
+        </li>
 
-          <li class="navbar-item">
-            <a href="#about" class="navbar-link" data-navbar-link>About</a>
-          </li>
+        <li class="navbar-item">
+          <a href="#services" class="navbar-link" data-navbar-link>Services</a>
+        </li>
 
-          <li class="navbar-item">
-            <a href="#services" class="navbar-link" data-navbar-link>Services</a>
-          </li>
+        <li class="navbar-item">
+          <a href="#values" class="navbar-link" data-navbar-link>Values</a>
+        </li>
 
-          <li class="navbar-item">
-            <a href="#values" class="navbar-link" data-navbar-link>Values</a>
-          </li>
+        <li class="navbar-item">
+          <a href="#blog" class="navbar-link" data-navbar-link>Blog</a>
+        </li>
 
-          <li class="navbar-item">
-            <a href="#blog" class="navbar-link" data-navbar-link>Blog</a>
-          </li>
+        <li class="navbar-item">
+          <a href="#contact" class="navbar-link" data-navbar-link>Contact Us</a>
+        </li>
 
-          <li class="navbar-item">
-            <a href="#" class="navbar-link" data-navbar-link>Contact Us</a>
-          </li>
-          <li class="search-box">
-            <button class="btn-search"><i class="bx bx-search"></i></button>
-            <input type="text" class="input-search" placeholder="Search...">
-          </li>
-        </ul>
+        <!-- Search box aligned in navbar
+        <li class="navbar-item search-box">
+          <button class="btn-search"><i class="bx bx-search"></i></button>
+          <input type="text" class="input-search" placeholder="Search...">
+        </li> -->
 
-      </nav>
+      </ul>
+
+    </nav>
+
+
+
 
       <!-- <a href="#" class="btn">
         <i class='bx bx-search' aria-hidden="true"></i>
@@ -114,37 +122,43 @@
   <main>
     <article>
 
-      <!-- 
-        - #HERO
-      -->
+<!-- 
+  - #HERO
+-->
 
-      <section class="hero" id="home">
-        <div class="container">
+<section class="hero" id="home">
+  <div class="container">
 
-          <div class="hero-content">
+    <div class="hero-content">
 
-            <p class="hero-subtitle">Lorem ipsum dolor sit amet consectetur.</p>
+      <!-- Updated Subtitle Text -->
+      <p class="hero-subtitle">Empowering Your Digital Presence</p>
 
-            <h2 class="h2 hero-title">Creative ideas<i>.</i><br>
-              Agile technology<i>.</i><br>
-              Enabling change<i>.</i>
-            </h2>
+      <!-- Updated Title Text -->
+      <h2 class="h2 hero-title">Creative ideas<i>.</i><br>
+        Agile technology<i>.</i><br>
+        Enabling change<i>.</i>
+      </h2>
 
-            <p class="hero-text">
-              Lorem ipsum dolor sit amet consectetur. <a href=""> Click Here</a>
-            </p>
+      <!-- Updated Hero Text -->
+      <p class="hero-text">
+        We provide innovative, user-centered web solutions and modern technologies to help your business thrive.
+        <a href="#services"> Discover our services</a>
+      </p>
 
-            <button class="btn">Explore Our Work <i class='bx bxs-right-arrow'></i></button>
+      <!-- Button CTA -->
+      <button class="btn">Explore Our Work <i class='bx bxs-right-arrow'></i></button>
 
-          </div>
+    </div>
 
-          <figure class="hero-banner">
-            <img src="./assets/images/hero-img.svg" loading="lazy" alt="hero-banner"
-              class="w-100" style="margin-top: 30px; transform: scaleX(-1);">
-          </figure>
+    <!-- Hero Image -->
+    <figure class="hero-banner">
+      <img src="./assets/images/hero-img.svg" loading="lazy" alt="hero-banner" class="w-100" style="margin-top: 30px; transform: scaleX(-1);">
+    </figure>
 
-        </div>
-      </section>
+  </div>
+</section>
+
 
 
 
@@ -164,7 +178,7 @@
 
           <div class="about-content">
 
-            <h2 class="h2 section-title underline">Your digital, agile partner<i class="dot">.</i>
+            <h2 class="h2 section-title underline">Your digital, partner in north<i class="dot">.</i>
             </h2>
 
             <p class="about-text">
@@ -612,7 +626,8 @@
         <div class="footer-brand">
 
           <a href="#" class="logo">
-            Brand <i>Name</i>
+            <!-- Brand <i>Name</i> -->
+            <img src="./assets/images/icn.png" alt="Västerbotten Webbyrå Logo" style="height: 50px; width: auto;">
           </a>
               <p class="text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cupiditate? Iste consectetur itaque commodi laborum molestiae sequi, dicta tempora! </p>
@@ -620,19 +635,19 @@
           <ul class="social-list">
 
             <li>
-              <a href="#" class="social-link">
+              <a href="https://www.facebook.com/VasterbottenWebbyra" class="social-link">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a href="https://www.instagram.com/vasterbottenwebbyra/" class="social-link">
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a href="https://x.com/VWebbyra" class="social-link">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </li>
@@ -690,7 +705,7 @@
 
         </ul>
 
-        <ul class="footer-list">
+        <!-- <ul class="footer-list">
 
           <li>
             <p class="footer-list-title">Other links</p>
@@ -708,7 +723,7 @@
             <a href="#" class="footer-link">Support</a>
           </li>
 
-        </ul>
+        </ul> -->
 
         <ul class="footer-list">
 
@@ -723,8 +738,8 @@
             </div>
 
             <div>
-              <a href="tel:+1111111111" class="footer-item-link">+111-111-1111</a>
-              <a href="tel:+1111111111" class="footer-item-link">+111-111-1111</a>
+              <a href="tel:+46-72-778 41 65" class="footer-item-link">+46-72-778 41 65</a>
+              <!-- <a href="tel:+1111111111" class="footer-item-link">+111-111-1111</a> -->
             </div>
 
           </li>
@@ -736,8 +751,7 @@
             </div>
 
             <div>
-              <a href="mailto:info@example.com" class="footer-item-link">info@example.com</a>
-              <a href="mailto:info@example.com" class="footer-item-link">info@example.com</a>
+              <a href="mailto:vasterbottenwebbyra@gmail.com" class="footer-item-link">vasterbottenwebbyra@gmail.com</a>
             </div>
 
           </li>
@@ -749,7 +763,7 @@
             </div>
 
             <address class="footer-item-link">
-              Example, Example, United Kingdom BL4 XXX
+              Mariehemsvägen 90654, Umeå, Västerbotten, Sweden
             </address>
 
           </li>
@@ -759,7 +773,7 @@
       </div>
       <div class="footer-bottom">
         <p class="copyright">
-          &copy; 2022 <a href="https://saimcode.vercel.app" class="copyright-link">Saimcode</a>. All Right Reserved
+          &copy; 2024 <a href="https://vasterbottenwebbyra.github.io./" class="copyright-link">Västerbotten Webbyrå</a>. All Right Reserved
         </p>
       </div>
     </div>
